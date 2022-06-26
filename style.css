@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+    background-color: azure;
+    text-align: center;
+    height: 70px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(171, 237, 237);
+    padding: 12px;
+    border-radius: 15px;
+    border: 2px solid white;
+    margin: 12px;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav ul li:hover {
+    background-color: rgb(145, 105, 91);
+}
+
+#banner {
+    height: 500px;
+    background-image: url('images/banner.jpeg');
+    background-size: cover;
+}
+
+#banner h2 {
+    text-align: center;
+    color: burlywood;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-shadow: 0px 0px 5px brown;
+}
+
+#inner {
+    background-color: rgb(42, 154, 177);
+}
+
+#outer {
+    background-color: rgb(42, 154, 177);
+}
+
+.section-title {
+    color:rgb(53, 86, 175);
+    text-align: center;
+    border-bottom: 5px solid rgb(53, 86, 175);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.planet-card {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+}
+
+.planet-card img {
+    width: 100%;
+    height: 65%;
+}
+
+.planet-card ul {
+    text-align: left;
+}
+
+
+table {
+    border-collapse: collapse;
+    display: inline;
+}
+
+th, td {
+    border: 2px solid white;
+}
+
+.col1 {
+    width: 5%;
+    background-color: rgb(8, 134, 134);
+}
+
+.col2 {
+    width: 10%;
+    background-color: rgb(8, 134, 134);
+}
+
+.col3 {
+    width: 50%;
+    background-color: rgb(8, 134, 134);
+}
+
+table tr td img {
+    width: 200px;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
